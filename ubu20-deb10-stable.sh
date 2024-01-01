@@ -1,12 +1,8 @@
 #!/bin/bash
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # System Request : Debian 9+/Ubuntu 18.04+/20+
-# Develovers » Gemilangkinasih࿐
-# Email      » gemilangkinasih@gmail.com
-# telegram   » https://t.me/gemilangkinasih
 # whatsapp   » wa.me/+628984880039
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# Gemilangkinasih࿐
 
 Green="\e[92;1m"
 RED="\033[31m"
@@ -92,7 +88,7 @@ gem install lolcat
 apt install wondershaper -y
 clear
 # REPO    
-    REPO="https://raw.githubusercontent.com/Baimkuy/Autoscript/GM/"
+    REPO="https://raw.githubusercontent.com/sibeesans/gus2024/GM/"
 
 ####
 start=$(date +%s)
@@ -279,7 +275,7 @@ restart_system(){
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m" 
 clear
-izinsc="https://raw.githubusercontent.com/Baimkuy/Autoscript/GM/Register"
+izinsc="https://raw.githubusercontent.com/sibeesans/gus2024/GM/Register"
 # USERNAME
 rm -f /usr/bin/user
 username=$(curl $izinsc | grep $MYIP | awk '{print $2}')
@@ -316,8 +312,8 @@ else
 sts="${Error}"
 fi
 TIMES="10"
-CHATID="6735684125"
-KEY="6501332793:AAFqR8ie_r1m6hLquZdMw7_wCAVp3hcbp20"
+CHATID="5641321832"
+KEY="5621227316:AAFp_SxXGwD9NE0HgSBCU0sP4fsJmuo1YzE"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
